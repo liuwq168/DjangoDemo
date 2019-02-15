@@ -63,3 +63,17 @@
 
 ## 部署
 [http://157.230.167.44](http://157.230.167.44)
+
+Login
+<img src="media/images/login.png" width="600">
+Profile Edit
+<img src="media/images/profile.png" width="600">
+Password Reset by Email
+<img src="media/images/reset_password.png" width="600">
+Home Page
+<img src="media/images/home.png" width="600">
+Pagination
+<img src="media/images/pagination.png" width="600">
+Post CRUD (Create, Read, Update, Delete)
+<img src="media/images/post_update.png" width="600">
+
