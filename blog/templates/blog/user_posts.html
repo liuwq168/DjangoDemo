@@ -6,10 +6,10 @@
           <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
           <div class="media-body">
             <div class="article-metadata">
-              <a class="mr-2" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
+              <a class="mr-2" href="{% url 'user_posts' object.author.username %}">{{ object.author }}</a>
               <small class="text-muted">{{ object.date_posted|date:"M d Y" }}</small>
             </div>
-            <h2><a class="article-title" href="{% url 'post-detail' object.id %}">{{ object.title }}</a></h2>
+            <h2><a class="article-title" href="{% url 'post_detail' object.id %}">{{ object.title }}</a></h2>
             <p class="article-content">{{ object.content }}</p>
           </div>
         </article>

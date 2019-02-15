@@ -15,4 +15,4 @@ class Post(models.Model):
 
     # fix No URL to redirect to. Either provide a url or define a get_absolute_url method on the Model
     def get_absolute_url(self):
-        return reverse('post-detail', kwargs={'pk': self.pk})
+        return reverse('post_detail', kwargs={'pk': self.pk})
